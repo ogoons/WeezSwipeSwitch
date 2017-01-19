@@ -8,7 +8,7 @@ Android Swipe Switch Widget
 ## Demo
 ![WeezSwipeSwitch Demo](./demo.gif)
 
-## Sample cope
+## Sample Code
 ```
 WeezSwipeSwitch swipteSwitch;
 swipteSwitch = (WeezSwipeSwitch) findViewById(R.id.swipe_switch);
