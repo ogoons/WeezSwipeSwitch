@@ -6,7 +6,7 @@ Android Swipe Switch Widget
 스팸전화 차단 앱에서 많이 사용하고 있는 커스텀 위젯을 구현해 보았습니다.
 
 ## Demo
-<video src="demo.mp4" width="768" height="1024" controls preload></video>
+![WeezSwipeSwitch Demo](./demo.png)
   
 ## License
 
