@@ -10,15 +10,14 @@ Android Swipe Switch Widget
 
 ## Sample Code
 ```
-WeezSwipeSwitch swipteSwitch;
-swipteSwitch = (WeezSwipeSwitch) findViewById(R.id.swipe_switch);
-swipteSwitch.setSwipeOverlayColor(100, ContextCompat.getColor(this, R.color.colorAccent));
-swipteSwitch.setBackgroundColor(ContextCompat.getColor(this, R.color.colorPrimary));
-swipteSwitch.setOnSwipeSwitchListener(new WeezSwipeSwitch.OnSwipeSwitchListener() {
-	@Override
-	public void onSwitchOn() {
-		Toast.makeText(getApplicationContext(), "Succeed", Toast.LENGTH_SHORT).show();
-	}
+WeezSwipeSwitch swipeSwitch = (WeezSwipeSwitch) findViewById(R.id.swipe_switch);
+swipeSwitch.setSwipeOverlayColor(100, ContextCompat.getColor(this, R.color.colorAccent));
+swipeSwitch.setBackgroundColor(ContextCompat.getColor(this, R.color.colorPrimary));
+swipeSwitch.setOnSwipeSwitchListener(new WeezSwipeSwitch.OnSwipeSwitchListener() {
+    @Override
+    public void onSwitchOn() {
+	Toast.makeText(getApplicationContext(), "Succeed", Toast.LENGTH_SHORT).show();
+    }
 });
 ```
   
