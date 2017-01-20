@@ -9,10 +9,8 @@ Android Swipe Switch Widget
 ![WeezSwipeSwitch Demo](./demo.gif)
 
 ## Files
-```
-WeezSwipeSwitch.java
-layout_swipe.xml
-```
+- WeezSwipeSwitch.java
+- layout_swipe.xml
 
 ## Sample Code
 ```
