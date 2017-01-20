@@ -16,7 +16,7 @@ swipeSwitch.setBackgroundColor(ContextCompat.getColor(this, R.color.colorPrimary
 swipeSwitch.setOnSwipeSwitchListener(new WeezSwipeSwitch.OnSwipeSwitchListener() {
     @Override
     public void onSwitchOn() {
-	Toast.makeText(getApplicationContext(), "Succeed", Toast.LENGTH_SHORT).show();
+		Toast.makeText(getApplicationContext(), "Succeed", Toast.LENGTH_SHORT).show();
     }
 });
 ```
