@@ -1,4 +1,4 @@
-# WeezSwipeSwitch
+# weez-swipe-switch
 Android Swipe Switch Widget
 
 ## Summary
